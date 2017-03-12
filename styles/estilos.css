@@ -1,1 +1,39 @@
 @CHARSET "UTF-8";
+header {
+    margin: 0;
+	padding: 0;
+	width: 100%;
+    background-color: #5b7989;
+    color: white;
+    border-radius: 10px;
+    text-shadow: 2px 2px #02010a;
+}
+#Titulo{
+    display: inline;
+}
+
+nav{
+    display:inline;
+    float:right;
+}
+
+nav ul{
+    list-style:none;
+}
+nav ul li{
+    display:inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Desktop */
+/* @media (min-width: 600px) {
+    nav{
+    display:inline;
+    }
+
+}
+*/
