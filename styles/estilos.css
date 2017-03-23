@@ -20,7 +20,11 @@ body{
     font-family: 'Dancing Script',cursive;
 
 }
-
+.contenido{
+		text-align: center !important;
+		max-width: 900px;
+		margin: auto;
+	}
 .central img {
 			display:block;
 			padding-top:10px;
@@ -114,3 +118,6 @@ nav a:hover{
            .contact, .terms, .social, .copyright{
           		width: 25%;
           	}
+@media (min-width: 900px){
+
+}
