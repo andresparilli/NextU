@@ -99,26 +99,18 @@ nav a:hover{
            box-shadow: 2px 2px 2px #82c3a6;
 
 					}
-footer{
-    background-color:#C6d5c5;
-        -webkit-border-radius:0 0 10px 10px;
-        border-radius:0 0 10px 10px;
-    margin-top:5px;
-}
-footer ul{
-    list-style:none;
-    float:center;
-}
-footer ul li{
-    float: center;
-  }
-footer a {
-    text-decoration: none;
-    color: white;
-    margin-top: 1%;
-    font-size: 20px;
-}
-footer a:hover{
-    text-decoration: underline;
-    font-size: 25px;
-}
+          .footer{
+          		display: flex;
+          		text-align: center;
+          		font-family: 'Dancing Script', cursive;
+          		font-size: 1.2vw;
+          		padding-top: 2%;
+          		padding-bottom: 2%;
+          		margin-bottom: 1%;
+          		width: 100%;
+          		background-color: #C6d5c5;
+          		height: 100%;
+          	}
+           .contact, .terms, .social, .copyright{
+          		width: 25%;
+          	}
