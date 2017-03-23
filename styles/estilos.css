@@ -18,11 +18,10 @@ body{
     margin-left: 10%;
     font-family: 'Dancing Script',cursive;
 }
-#Titulo{
+.titulo{
   display:inline-block;
   width: 50%;
   padding: 10px 30px;
-  flex: 1 2 100%;
 }
 
 nav{
@@ -50,11 +49,35 @@ nav a {
     text-align: center;
     background-color: #d5c75f;
     border: 1px;
+    display:flex;
+	margin-top:10px;				
+}
+.secundaria img {
+	padding-top:10px; 
+	width:75%
+}	
+.secundaria p {
+    color:white;
+	text-align:center;
 
 }
+			
 .paisajes{
-  border-radius: 2px;
+	margin-left:10%;
+    border-radius: 2px;
 }
+
+.paisajes:hover{-moz-transform:rotate(10deg);
+				-webkit-transform:rotate(10deg);
+				transform:rotate(10deg);
+				}
 .retratos{
   border-radius: 2px;
+  margin-left:10%;
 }
+.retratos:hover{
+					 -webkit-transform:translate(5px,20px);
+					 -moz-trasform:translate(5px,20px);
+					 transform:translate(5px,20px);
+
+					}
