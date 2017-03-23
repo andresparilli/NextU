@@ -1,2 +1,3 @@
 # NextU_css
-Ejerecicio final de CSS para NEXTU
+Ejercicio final de CSS para NEXTU
+por Andres E. Parilli
