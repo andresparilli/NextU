@@ -7,6 +7,7 @@ header {
     color: white;
     border-radius: 10px 10px 0 0;
     text-shadow: 2px 2px #02010a;
+    
 }
 header h1{
   text-shadow: 2px 2px 2px #02010a;
@@ -20,12 +21,12 @@ body{
     
 }
 
-body.central img {
+.central img {
 			display:block;
 			padding-top:10px;
 			padding-bottom:10px;	    
             margin: auto;
-			width:50%;
+			width:80%;
 			}
 .titulo{
   display:inline-block;
@@ -59,6 +60,7 @@ nav a:hover{
 .central {
     text-align: center;
     background-color: #82c3a6;
+    
 }
 .secundaria {
     text-align: center;
