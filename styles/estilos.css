@@ -108,6 +108,40 @@ nav a:hover{
 .contact, .terms, .social, .copyright{
 	width: 25%;
 }
+.galeria{
+	background-color: #d5c75f;
+	border: 1px;
+}
+.gal1 {
+	width:100%;
+	display: flex;
+	flex-flow: row wrap;
+	order:1;
+}
+.gal2 {
+	width:100%;
+	display: flex;
+	flex-flow: row wrap;
+	order:2;
+}
+.pai1 {
+  width:30%
+}
+.pai2 {
+  width:30%
+}
+.pai3 {
+  width:30%
+}
+.pai4 {
+  width:30%
+}
+.pai5 {
+  width:30%
+}
+.pai6 {
+  width:30%
+}
 
 /* media queries para manejar móvil con menos de 900px. */
 @media all and (max-width: 900px){
