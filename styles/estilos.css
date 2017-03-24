@@ -109,20 +109,20 @@ nav a:hover{
 	width: 25%;
 }
 .galeria{
-	background-color: #d5c75f;
-	border: 1px;
+background-color: #d5c75f;
+border: 1px;
 }
 .gal1 {
-	width:100%;
-	display: flex;
-	flex-flow: row wrap;
-	order:1;
+width:100%;
+display: flex;
+flex-flow: row wrap;
+order:1;
 }
 .gal2 {
-	width:100%;
-	display: flex;
-	flex-flow: row wrap;
-	order:2;
+width:100%;
+display: flex;
+flex-flow: row wrap;
+order:2;
 }
 .pai1 {
   width:30%
