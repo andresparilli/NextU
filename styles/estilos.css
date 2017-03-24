@@ -7,12 +7,14 @@ header {
 	color: white;
 	border-radius: 10px 10px 0 0;
 	text-shadow: 2px 2px #02010a;
+	display: flex;
 }
 header h1{
 	text-shadow: 2px 2px 2px #02010a;
 	display:inline-block;
 	width: 50%;
 	padding-left: 5%;
+	display: flex;
 }
 body{
 	background-color: #02010a;
@@ -32,6 +34,7 @@ nav{
 	float:right;
 	width: 30%;
 	padding-left: 1%;
+	display: flex;
 }
 nav ul{
 	list-style:none;
@@ -56,6 +59,7 @@ nav a:hover{
 .central {
 	text-align: center;
 	background-color: #82c3a6;
+	display: flex;
 }
 .central img {
 	display:block;
@@ -97,13 +101,13 @@ nav a:hover{
 }
 /* Footer */
 .footer{
-	display: flex;
 	text-align: center;
 	padding-top: 2%;
 	width: 100%;
 	background-color: #C6d5c5;
 	border-radius: 0 0 10px 10px;
 	flex-flow: row wrap;
+	display: flex;
 }
 .contact, .terms, .social, .copyright{
 	width: 25%;
@@ -126,21 +130,31 @@ order:2;
 }
 .pai1 {
   width:80%;
+	-webkit-filter:blur(10px);
+  filter: blur(10px);
 }
 .pai2 {
   width:80%;
+	-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
 }
 .pai3 {
   width:80%;
+	-webkit-filter:sepia(90%);
+filter:sepia(90%);
 }
 .pai4 {
   width:80%;
+	-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
 }
 .pai5 {
   width:80%;
 }
 .pai6 {
   width:80%;
+	-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
 }
 
 /* media queries para manejar móvil con menos de 900px. */
@@ -149,11 +163,14 @@ order:2;
 		max-width: 100%;
 		margin: auto;
 	}
+
 	.footer{
 		text-align: center;
 		padding-top: 2%;
+		width: 100%;
 		background-color: #C6d5c5;
 		border-radius: 0 0 10px 10px;
+		flex-flow: row wrap;
 	}
 	.contact{
 		width: 100%;
