@@ -1,1 +1,2 @@
 https://github.com/andresparilli/NextU_css
+https://andresparilli.github.io/NextU_css/index.html
