@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+    <nombres>Juan</nombres>
+    <apellidos>Leon</apellidos>
+    <edad>25</edad>
+    <email>juan@leon.com</email>
+</persona>

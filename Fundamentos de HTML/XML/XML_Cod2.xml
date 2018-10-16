@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="001" fecha-"2018-15-10">
+    <cliente>
+        <nombre></nombre>
+        <telefono></telefono>
+    </cliente>
+    <articulos>
+        <articulo id="1">
+            <cantidad></cantidad>
+            <descripcion></descripcion>
+            <precio-unitario></precio-unitario>
+            <precio-final></precio-final>
+        </articulo>
+        <articulo id="2">
+            <cantidad></cantidad>
+            <descripcion></descripcion>
+            <precio-unitario></precio-unitario>
+            <precio-final></precio-final>
+        </articulo>
+    </articulos>
+<precio-total></precio-total>
+</factura>
